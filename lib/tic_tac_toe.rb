@@ -110,7 +110,7 @@ class TicTacToe
       turn
     end
     if won? != false
-      puts "Congratulations #{winner(board)}!"
+      puts "Congratulations #{winner(@board)}!"
     else
       puts "Cat's Game!"
     end
